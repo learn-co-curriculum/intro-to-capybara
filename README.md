@@ -354,6 +354,9 @@ GET '/' - Greeting Form
 
 POST '/greet' - User Greeting
   greets the user personally based on their user_name in the form (FAILED - 1)
+    
+        
+** This is actually showing as passing, because the file already has the POST method written in from GitHub; recommend deleting it so that the test will fail
 
 Failures:
 
