@@ -289,6 +289,9 @@ Failure/Error: expect(page).to have_selector("form")
 
 The failure message is telling us that we expected the page to have an HTML form and it doesn't, so it's failing. Let's add our HTML form to our view and make this test pass.
 
+** by default the file already has HTML here so the test is automatically passing; recommend clearing out this file on the repo so the test will show as failing
+
+
 Edit: `views/index.erb`
 
 ```html
